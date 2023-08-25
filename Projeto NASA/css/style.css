@@ -1,0 +1,189 @@
+ /* Reset de margens e preenchimento */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 20px;
+     background-color: black;
+
+     background-image: url('https://p4.wallpaperbetter.com/wallpaper/384/427/591/space-dark-wallpaper-preview.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ /* Estilo básico para o cabeçalho */
+ header {
+     background-color: black;
+     background-color: black;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+ }
+
+ /* Estilo para a lista não ordenada */
+ .lista-menu {
+     margin-left: 200px;
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+ }
+
+ /* Estilo para os itens da lista */
+ li {
+     border-radius: 5px;
+     font-size: 20px;
+     margin: 10px;
+ }
+
+ .logo {
+     margin-left: 60px;
+ }
+
+
+ .pesquisa {
+     display: flex;
+     align-items: center;
+ }
+
+ .pesquisa input[type="text"] {
+     margin-left: 20px;
+     padding: 15px;
+     border-radius: 10px;
+     background-color: rgb(55, 55, 55);
+ }
+
+ .lista-submenu {
+     width: 72%;
+     list-style: none;
+     background-color: #6c6c6c;
+     display: flex;
+     flex-direction: row;
+     margin-left: 220px;
+ }
+
+ .item-submenu {
+     font-size: 16px;
+     color: white;
+ }
+
+
+
+
+
+
+ .row {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .column-esquerda,
+ .column-direita-cima,
+ .column-direita-direita,
+ .column-direita-baixo {
+     margin-top: 10px;
+     width: 48%;
+     /* Outros estilos que você possa querer adicionar */
+ }
+
+ .column-esquerda {
+     margin-left: 100px;
+ }
+
+ .column-direita-cima {
+     margin-left: 14px;
+ }
+
+ .column-direita-direita {
+     margin-right: 44px;
+ }
+
+
+ .column-direita-baixo {
+     margin-top: 10px;
+     margin-left: 710px;
+     margin-top: -310px;
+ }
+
+ #img-esquerda {
+     width: 600px;
+     height: 600px;
+ }
+
+ #img-direita-cima {
+     width: 350px;
+     height: 280px;
+ }
+
+ #img-direita-direita {
+     width: 350px;
+     height: 280px;
+ }
+
+ #img-direita-baixo {
+     width: 710px;
+     height: 300px;
+ }
+
+
+ #more {
+     width: 90%;
+     color: white;
+     font-size: 16px;
+     font-weight: bold;
+     margin-top: 30px;
+     margin-left: 100px;
+     text-align: center;
+     background-color: rgb(95, 95, 252);
+     padding: 12px;
+ }
+
+ #more:hover {
+     background-color: rgb(65, 65, 250);
+ }
+
+
+ footer {
+
+     background-color: rgba(0, 0, 0, 0.5);
+     text-align: center;
+     padding: 20px 0;
+ }
+
+ .lista-footer {
+     padding: 10px;
+     list-style: none;
+     background-color: black;
+     display: flex;
+     flex-direction: row;
+     margin-left: 320px;
+ }
+
+ .item-footer {
+     color: rgb(95, 95, 252);
+     font-size: 14px;
+ }
+
+ .logo-footer {
+     width: 80px;
+     margin-top: 50px;
+     margin-left: 60px;
+     display: flex;
+     align-items: flex-start;
+ }
+
+ p {
+     text-align: start;
+     font-size: 14px;
+     width: 300px;
+     display: flex;
+     align-items: flex-start;
+     margin-left: 140px;
+     margin-top: -50px;
+     margin-bottom: 40px;
+     color: white;
+ }
